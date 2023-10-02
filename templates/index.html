@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Item Detection</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+</head>
+
+<body>
+    <header>
+        <h1>Real-Time Item Detection</h1>
+        <a href="{{url_for('static', filename='about.html')}}" target="_blank"><button>SAMPLE PHOTOS</button></a>
+
+    </header>
+
+    <div class="container">
+
+        <div class="video-container">
+            <video id="video" autoplay></video>
+            <canvas id="canvas"></canvas>
+        </div>
+        <div class="results">
+            <h2>Detection Results</h2>
+            <ul id="detection-results"></ul>
+        </div>
+    </div>
+    <footer>Copyright &copy; 2023, Satyam Namdev, Inc. All Rights Reserved.</footer>
+    <script src="{{url_for('static', filename='script.js')}}"></script>
+</body>
+
+</html>
