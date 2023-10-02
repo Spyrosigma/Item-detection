@@ -1,7 +1,7 @@
 # Item-detection
 In this repo, you can find ready to use item detection modules in which you use image, videos or webcam to detect items.
 There are 3 working python files named :
-## image_detection
+## image_detection.py
 ## webcame_detection.py 
 ## video_detection.py 
 ...
